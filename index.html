@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="">
         <h1 class="title">Tarefas do dia 12 de Janeiro</h1>
-        <ul class="list-item">
-            <li class="list-item">Tomar café da manhã</li>
-            <li class="list-item">Estudar Programação</li>
-            <li class="list-item">Almoçar</li>
-            <li class="list-item">Estudar programação</li>
+        <ul id="list">
+            
         </ul>
+    </div>
+    <div>
+        <input 
+        id="task-name" 
+        type="text" 
+        name="task-name"
+        placeholder="Nome da Tarefa">
+        <button class="button" onclick="addNewTask()">Adicionar</button>
     </div>
 </body>
 </html>
